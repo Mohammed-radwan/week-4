@@ -62,33 +62,47 @@ html{
 /* End Menu */
 
 /* search-bar */
+#fa-search{
+  font-size:30px;color:white;
+    padding: 5px;
+    margin: 0 auto;
+   
+}
+#search-submit{
+    margin: -58px;
+    padding: 0;
+    background-color: black;
+    width: 58px;
+    height: 58px;
+    border: 0;
+    
+}
+.searchSubmit{
+   
+    padding: 0;
+    
+}
 .search {
     position: relative;
-    border-bottom: 8px solid #01689b;
-    width: 100%;
-    padding: 0 15px 0 15px;
-    font-size: 1.025em;
-    background-color: #01689b;
+   width: 30%;
+        float: right;
+        top: 50px;
+        border: none;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    
+    
 }
-
-/* input search box */
 .search input {
     background-color: white;
     padding: 19px;
     border: 1px solid #d8dee2;
-    width: 100%;
+    width: 70%;
     font-size: 15px;
-}
-/* search bar image */
-.search img {
-    position: absolute;
-    width: 60px;
-    right: 60px;
-    margin-top: -58px;
-    margin-right: -50px;
+    margin: 0;
 }
 /* End search-bar */
-
 
 header {
     background-image: url(https://www.rijksoverheid.nl/binaries/large/content/gallery/rijksoverheid/attentie-afbeeldingen/onderwerpen/k/mandjes.jpg);
@@ -100,9 +114,11 @@ header {
 .h-l{
     padding: 5px;
 }
+.h-l a:hover{
+    color: skyblue;
+}
 .hero-img {
-    overflow: hidden;
-    
+    overflow: hidden;  
 }
 .hero-container {
     display: block;
