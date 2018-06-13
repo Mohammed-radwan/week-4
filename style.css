@@ -18,33 +18,16 @@ html{
 }
 /* End logo */
 
-
 /* Menu */
 #header {
     width: 100%;
     margin: 20px  auto 0 auto;    
  }
-
-
-
-
-
-
 #menu{
     height: 80px;
     width: 100%;
     background-color: #01689b;
 }
-
-/*
-#menu-item-home{
-    font-size: 26px;
-    float: right;
-    line-height: 10px;
-    padding: 18px;
-    list-style-type: none;
-}
-*/
 .menu-item-home{
     
     padding:20px 500px 20px 20px;  
@@ -58,7 +41,6 @@ html{
     color:#fff; 
     text-decoration: none;
 }
-/* classes of the list (ul) */
 .menu-all{
     float: right;
     margin-right: 3%;
@@ -88,7 +70,7 @@ html{
     background-color: #01689b;
 }
 
-/* search-bar input box */
+/* input search box */
 .search input {
     background-color: white;
     padding: 19px;
@@ -96,7 +78,7 @@ html{
     width: 100%;
     font-size: 15px;
 }
-/* search-bar magnifier image */
+/* search bar image */
 .search img {
     position: absolute;
     width: 25px;
@@ -118,10 +100,13 @@ header {
     padding: 5px;
 }
 
+/*
 .hero-list li{
     list-style-type: square;
     color: #01689b;
+    
 }
+*/
 .hero-img {
     overflow: hidden;
     
@@ -146,9 +131,10 @@ header {
     text-decoration: none;
 }
 
-
-.container{
-     padding: 10px;
+/*box text container*/
+.box-text-container{
+    padding: 10px;
+    background-color: #eee;
 }
 #grid-flex{
     padding: 0 10px;
@@ -174,3 +160,71 @@ header {
 
 .grid-item p{
     color: black; }
+/*End box text container*/
+
+/* Nieuws and img  */
+
+.nieuws-img {
+   padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.img-nw {
+    float: left;
+    transform: scale(0.9); 
+    width: 33%;
+    padding: 10px;
+    overflow: auto;  
+}
+.img-nw h1{
+   color:#01689b;  
+}
+.img-nw p{
+    color: black;
+}
+.img-nw a{
+    text-decoration: none;
+}
+
+/*End Nieuws and img*/
+
+
+/*Nieuws*/
+
+/*End Nieuws*/
+
+/*Nieuws*/
+.container-Nieuws{
+    border-top: 1px solid #eee;
+    margin-left: 3%;
+} 
+.cont-nw{
+    
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    
+}
+.nw1{
+   float: left;
+    transform: scale(0.9); 
+    width: 33%;
+    padding: 10px;
+    overflow: auto; 
+    
+}
+
+    
+.nw1 a{
+    text-decoration: none;
+    
+}
+.nw1 h3{
+  color: #01689b; 
+}
+
+.nw1 p{
+    color: black; }
+/*End Nieuws*/
