@@ -1,1 +1,158 @@
+/*color:#01689b;*/
+
+html{
+    margin: 0;
+    padding: 0;
+}
+* {
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+}
+ /* logo */
+.logo{
+  display: block;
+    margin: auto;
+     height: 100px;
+     width: 100px;
+}
+/* End logo */
+
+
+/* Menu */
+#header {
+    width: 100%;
+    margin: 20px  auto 0 auto;    
+ }
+
+#menu{
+    height: 80px;
+    width: 100%;
+    background-color: #01689b;
+}
+
+#menu-item-home{
+    font-size: 26px;
+    float: right;
+    line-height: 10px;
+    padding: 18px;
+    list-style-type: none;
+}
+
+/* classes of the list (ul) */
+.menu-all{
+    float: right;
+    padding-right: 20px;
+    margin-right: 3%;
+}
+.menu-item{
+    font-size: 19px;
+    float: left;
+    line-height: 10px;
+    padding: 20px;
+}
+.menu-item a{
+    color:#fff; 
+    text-decoration: none;
+}
+.menu-item:hover{
+    text-decoration-line: underline;
+}
+/* End Menu */
+
+/* search-bar */
+.search {
+    position: relative;
+    border-bottom: 8px solid #01689b;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    font-size: 1.025em;
+    background-color: #01689b;
+}
+
+/* search-bar input box */
+.search input {
+    background-color: white;
+    padding: 19px;
+    border: 1px solid #d8dee2;
+    width: 100%;
+    font-size: 15px;
+}
+/* search-bar magnifier image */
+.search img {
+    position: absolute;
+    width: 25px;
+    right: 33px;
+    margin-top: -40px;
+}
+/* End search-bar */
+
+
+header {
+    background-image: url(https://www.rijksoverheid.nl/binaries/large/content/gallery/rijksoverheid/attentie-afbeeldingen/onderwerpen/k/mandjes.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: inherit;
+}
+
+.h-l{
+    padding: 5px;
+}
+
+.hero-list li{
+    list-style-type: square;
+    color: #01689b;
+}
+.hero-img {
+    overflow: hidden;
+    
+}
+
+.hero-container {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hero-list{
+    position: relative;
+    background-color: #fff;
+    padding: 20px 0;
+    margin: 50px 30px;
+    list-style: none;
+    text-align: left;
+    width: 550px;
+}
+.hero-list a{
+    color: #01689b;
+    text-decoration: none;
+}
+
+
+
+
+
+.container{
+    
+}
+.con-item{
+    
+}
+.img-nw{
+    
+}
+.Nieuws{
+    
+}
+.container-Nieuws{
+    
+}
+.brickRow nieuws{
+    
+}
+
+
+
+
+
 
