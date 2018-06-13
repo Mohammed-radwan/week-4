@@ -25,12 +25,18 @@ html{
     margin: 20px  auto 0 auto;    
  }
 
+
+
+
+
+
 #menu{
     height: 80px;
     width: 100%;
     background-color: #01689b;
 }
 
+/*
 #menu-item-home{
     font-size: 26px;
     float: right;
@@ -38,11 +44,23 @@ html{
     padding: 18px;
     list-style-type: none;
 }
+*/
+.menu-item-home{
+    
+    padding:20px 500px 20px 20px;  
+     font-size: 26px;
+    float: left;
+    line-height: 10px;
+  
 
+}
+.menu-item-home a{
+    color:#fff; 
+    text-decoration: none;
+}
 /* classes of the list (ul) */
 .menu-all{
     float: right;
-    padding-right: 20px;
     margin-right: 3%;
 }
 .menu-item{
@@ -129,30 +147,30 @@ header {
 }
 
 
-
-
-
 .container{
+     padding: 10px;
+}
+#grid-flex{
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+.grid-item { 
+    float: left;
+    transform: scale(0.9); 
+    width: 25%;
+    padding: 10px;
+    overflow: auto;
+}
+.grid-item a{
+    text-decoration: none;
     
 }
-.con-item{
-    
-}
-.img-nw{
-    
-}
-.Nieuws{
-    
-}
-.container-Nieuws{
-    
-}
-.brickRow nieuws{
-    
+.grid-item h2{
+  color: #01689b; 
 }
 
-
-
-
-
-
+.grid-item p{
+    color: black; }
